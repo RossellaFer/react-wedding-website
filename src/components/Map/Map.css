@@ -1,0 +1,102 @@
+#map {
+  border: 1px solid var(--olivegreen);
+  width: 50rem;
+  height: 30rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#map .container {
+  text-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#map .container h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  color: var(--olivegreen);
+}
+
+#map .container img {
+  max-width: 10rem;
+  padding-right: 0.7rem;
+  display: block;
+  float: left;
+}
+
+#map .container p {
+  max-width: 30rem;
+  display: inline-block;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  #map {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  #map .container {
+    padding: 0.5px;
+    width: 11rem;
+  }
+
+  #map .container img {
+    max-width: 6rem;
+    margin: 0 auto;
+    float: none;
+  }
+
+  #map .container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  #map .container p {
+    text-align: left;
+    padding: 0;
+    margin: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  #map .container img {
+    max-width: 10rem;
+  }
+
+  #map {
+    width: 36rem;
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #map {
+    width: 17rem;
+    height: 22rem;
+  }
+
+  #map .container {
+    padding: 0.5px;
+    max-width: 9rem;
+  }
+
+  #map .container h2 {
+    word-wrap: normal;
+  }
+
+  #map .container img {
+    max-width: 6rem;
+  }
+
+  #map .container p {
+    max-width: 8rem;
+    display: inline-block;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,125 @@
+.image_grid > li {
+  list-style: none;
+  height: 350px;
+  padding: 1rem;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_grid > li.small {
+  flex-basis: 30%;
+}
+
+.image_grid > li.large {
+  flex-basis: 70%;
+}
+
+.image_grid {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+hr {
+  width: 250px;
+  height: 2.5px;
+  background-color: var(--olivegreen);
+  border: 0;
+  margin-bottom: 50px;
+}
+
+.location .image_grid > li:first-child {
+  background-image: url("/images/tenimento2.jpg");
+}
+
+.location .image_grid > li:nth-child(2) {
+  background-image: url("/images/tenimento1.jpg");
+  background-position: top;
+}
+
+.location .image_grid > li:nth-child(3) {
+  background-image: url("/images/Foggia.jpeg");
+}
+
+.location .image_grid > li:last-child {
+  background-image: url("/images/Foggia2.jpeg");
+}
+
+#directions {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+#colorconvention {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 2;
+}
+
+#colorconvention li {
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.colorlegend {
+  color: var(--darkgrey);
+}
+
+div.transportList {
+  font-size: 1rem;
+  text-align: justify;
+  margin: 2.5px;
+  width: 100%;
+  line-height: 2;
+  padding: 10px 20px;
+}
+
+div.transportList:hover {
+  border: 2px solid var(--pink);
+  margin: 0;
+}
+
+div.transportList h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--olivegreen);
+  text-align: left;
+}
+
+div.transportList i {
+  margin-right: 0.5rem;
+  color: var(--olivegreen);
+}
+
+#importantInformation {
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 775px;
+  word-wrap: normal;
+  border-radius: 5px;
+  border: 1px solid var(--pink);
+  box-shadow: 5px 5px var(--palepink);
+}
+
+@media only screen and (max-width: 600px) {
+  .image_grid li.small {
+    flex-basis: 50%;
+  }
+
+  .image_grid li.large {
+    flex-basis: 50%;
+  }
+
+  #directions {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,29 @@
+#gifts {
+  height: 100vh;
+}
+
+#gifts .image_grid > li:first-child {
+  background-image: url("https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80");
+}
+
+#gifts .image_grid > li:nth-child(2) {
+  background-image: url("https://images.unsplash.com/photo-1476990789491-712b869b91a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1488&q=80");
+}
+
+#gifts .image_grid > li:nth-child(3) {
+  background-image: url("https://images.unsplash.com/photo-1470214203634-e436a8848e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");
+}
+
+#gifts .image_grid > li:last-child {
+  background-image: url("https://images.unsplash.com/photo-1500759285222-a95626b934cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+#bankdetails {
+  padding: 0;
+  margin-top: 2rem;
+}
+
+#bankdetails p {
+  margin: 0 auto;
+  padding: 0;
+}

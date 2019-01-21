@@ -1,0 +1,134 @@
+#menu {
+  margin-left: 2rem;
+}
+
+#menu li,
+link {
+  line-height: 4.1;
+  list-style: none;
+  display: none;
+}
+
+.description {
+  color: var(--lightgreen);
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.fas {
+  color: var(--lightgreen);
+  margin-right: 1rem;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  display: none;
+}
+
+/* #menu li link span:focus {
+  display: block;
+  color: var(--lightgreen);
+  transition: all 0.5s;
+} */
+
+#trigger,
+#burger,
+#burger:before,
+#burger:after {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: var(--lightgreen);
+  width: 1.7rem;
+  height: 0.27rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* label of the burger menu */
+#trigger {
+  height: 2rem;
+  background: none;
+}
+
+#burger:before {
+  content: " ";
+  top: 10px;
+  left: 0;
+}
+#burger:after {
+  content: " ";
+  top: 20px;
+  left: 0;
+}
+
+#menu-toggle:checked + #trigger + #burger {
+  top: 28px;
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+#menu-toggle:checked + #trigger + #burger:before {
+  width: 18px;
+  top: -2px;
+  left: 18px;
+  transform: rotate(45deg) translateX(-5px);
+  transition: transform 0.2s ease;
+}
+#menu-toggle:checked + #trigger + #burger:after {
+  width: 18px;
+  top: 2px;
+  left: 18px;
+  transform: rotate(-45deg) translateX(-5px);
+  transition: transform 0.2s ease;
+}
+
+#menu {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--olivegreen);
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+#menu-toggle:checked + #trigger + #burger + #menu {
+  animation: checked-anim 1s ease both;
+}
+#menu-toggle:checked + #trigger ~ #menu > li,
+link {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  #menu li,
+  link {
+    line-height: 3.5;
+    padding: 0 0.2rem;
+  }
+
+  #menu {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .description {
+    font-size: 0.6rem;
+  }
+
+  .description {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  #menu li:first-of-type,
+  link:first-of-type {
+    margin-left: 3rem;
+  }
+}

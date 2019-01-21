@@ -1,0 +1,202 @@
+.register-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 2rem 3.4rem;
+  background-color: white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.register-wrapper form input,
+.register-wrapper form textarea,
+.register-wrapper form select {
+  /* display: inline-block; */
+  display: inline-block;
+  width: 100%;
+  height: 3.125rem;
+  border: 1px solid #e6e6e6;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  outline: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0;
+  background-color: var(--palepink);
+  text-align: center;
+  font-family: "Lato";
+}
+
+.register-wrapper form select {
+  text-align-last: center;
+  margin-bottom: 20px;
+}
+
+.register-wrapper form textarea {
+  height: 5rem;
+  line-height: 4rem;
+  resize: none;
+}
+
+.register-wrapper form input,
+.register-wrapper form textarea:not(:last-child) {
+  margin-bottom: 20px;
+}
+.register-wrapper form input[type="email"]:focus,
+.register-wrapper form input[type="email"]:active,
+.register-wrapper form input[type="password"]:focus,
+.register-wrapper form input[type="password"]:active,
+.register-wrapper form input[type="textarea"]:focus,
+.register-wrapper form input[type="textarea"]:active,
+.register-wrapper form input[type="radio"]:focus,
+.register-wrapper form input[type="radio"]:active {
+  border-color: #cccccc;
+}
+
+/* submit button style */
+.register-wrapper form input[type="submit"] {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 1rem;
+  background-color: var(--olivegreen);
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0)
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0)
+  );
+  background-size: 20px 20px, 100% 100%;
+  border: 1px solid var(--lightgreen);
+  border-bottom-width: 3px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.register-wrapper form input[type="submit"]:hover {
+  background-size: 40px 40px;
+}
+
+/* Plus One Options  */
+.register-wrapper form ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register-wrapper form li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0.7rem;
+}
+
+.inputLabel {
+  background: var(--pearlgrey);
+  display: block;
+  padding: 0.5rem;
+  margin: 0 0 -9px 0;
+  text-align: left;
+  color: var(--olivegreen);
+  font-size: 0.7rem;
+  font-family: "Lato", sans-serif;
+}
+
+#radiobuttons li input[type="radio"] {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#radiobuttons li label {
+  margin-right: 0.3rem;
+}
+
+#radiobuttons {
+  display: flex;
+}
+
+#plusOneText {
+  border-bottom: none;
+  margin-bottom: 2;
+  margin-left: 0;
+}
+
+.guestDetails textarea {
+  margin-bottom: 2rem;
+}
+
+.RSVPlabel {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .register-wrapper {
+    margin: 0 2rem 2.4rem 2rem;
+  }
+
+  .register-block {
+    padding: 2rem 1.5rem;
+  }
+
+  #radiobuttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #plusOneOptions {
+    flex-direction: column;
+  }
+
+  .register-wrapper form textarea {
+    height: auto;
+    line-height: 1.6rem;
+  }
+
+  .inputLabel {
+    font-size: 0.5rem;
+  }
+
+  .register-wrapper form select {
+    text-align-last: center;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+  }
+
+  .register-wrapper form input,
+  .register-wrapper form textarea,
+  .register-wrapper form select {
+    /* display: inline-block; */
+    font-size: 1rem;
+  }
+}

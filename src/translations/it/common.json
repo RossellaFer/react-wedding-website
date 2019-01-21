@@ -1,0 +1,73 @@
+{
+  "loginpage": {
+    "title": "Accesso al sito",
+    "intro": "Per accedere al sito, registrati con la tua email. Se sei già registrato, accedi con la tua email e password.",
+    "placeholderName": "* Nome utente",
+    "placeholderEmail": "* Indirizzo mail",
+    "loginbutton": "Accedi al sito →",
+    "signupbutton": "Registrati e accedi →"
+  },
+  "hero": {
+    "weddingwebsite": "Sito del matrimonio",
+    "locationwedding": "Puglia, Itaia"
+  },
+  "navbar": {
+    "RSVP": "Conferma Presenza",
+    "contactus": "Contattaci",
+    "gifts": "Lista Nozze"
+  },
+
+  "location": {
+    "introduction": "Qualche informazione in più sulla città e sulla location del matrimonio, e qualche consiglio su cosa visitare.",
+    "cerimonia": "La cerimonia e il ricevimento si svolgeranno entrambe in una masseria tradizionale della città natale di Rossella.",
+    "mapsuggestions": "  Sulla mappa ci sono dei suggerimenti su cosa vedere durante il vostro soggiorno. L'aeroporto e la stazione dei treni sono in giallo, mentre le attrazioni turistiche, sia all'interno della città che nella zona locale sono in blu e verde.",
+    "plane": "In aereo",
+    "car": "In macchina",
+    "train": "In treno",
+    "planedescription1": "L'aeroporto più vicino è quello di Bari. Dall'aeroporto si può prendere l'",
+    "planedescription2": "autobus ",
+    "planedescription3": "fino alla stazione (ci sono una decina di autobus ogni giorno).",
+    "cardescription": "  Se arrivate dalla A14 Bologna-Taranto, potete uscire direttamente dall'uscita Foggia. Dalla A1 Roma-Napoli o dall'autostrada A16 Napoli-Canosa, prendete l'uscita Candelae poi la superstrada SS655 Candela-Foggia, direzione Foggia.",
+    "traindescription": "Foggia è servita da un gran numero di treni a lunga distanza (Trenitalia) nonché da una fitta rete di treni regionali. Potete controllare gli orari dei treni sul sito di ",
+    "traindescription2": "Trenitalia"
+  },
+  "map": {
+    "tenimento": "La location in cui si svolgerà la cerimonia."
+  },
+  "RSVP": {
+    "title": "Conferma presenza",
+    "headerExplain": "Per confermare la vostra presenza alle nozze o declinare l'invito vi basterà completare questo form.",
+    "header": "La tua conferma",
+    "thanks": "Grazie per aver risposto all'invito. Contattaci almeno due settimane prima del matrimonio se hai bisogno di modificare la tua risposta.",
+    "fieldName": "* Nome e cognome",
+    "fieldAddress": "Indirizzo postale (per l'invito ufficiale)",
+    "fieldCityAddress": "Città",
+    "fieldPostcodeAddress": "CAP",
+    "fieldAttendance": "Ci sei o te lo perdi?",
+    "fieldAttendanceYes": "Certo che ci sono!",
+    "fieldAttendanceNo": "Me lo perdo",
+    "fieldAllergies": "Hai allergie o intolleranze alimentari? Sei vegetariano?",
+    "fieldMusic": "Qualche brano preferito da inserire nella playlist?",
+    "confirm": "Conferma",
+    "empty": "Non hai completato questa sezione"
+  },
+  "plusOne": {
+    "header": "Qualche informazione sul tuo ospite",
+    "headerEdit": "Qualche informazione sul tuo ospite",
+    "guestName": "Nome e Cognome dell'ospite",
+    "guestAllergies": "Il tuo ospite ha allergie o intolleranze alimentari? È vegetariano?",
+    "title": "Porti un ospite?",
+    "yes": "Si"
+  },
+  "contactus": {
+    "title": "Contattaci",
+    "email": "qui.",
+    "summary": "Hai dubbi su cosa indossare? Non sai se portare i bimbi? Se hai qualche domanda scrivici una mail ",
+    "bridesummary": "Nata e cresciuta a Foggia, nella splendida Puglia, ma con il costante desiderio di viaggiare e scoprire posti e culture nuove. Decide di iscriversi all'università Ca' Foscari di Venezia, dove si laurea in Lingua Cinese e conosce Antonio.",
+    "groomsummary": "Nato e cresciuto in una piccola cittadina nella provincia di Bergamo. Sempre stato un fan della storia e della cultura del Sol Levante, decide di studiare Giapponese all'università Ca' Foscari di Venezia e trasferirsi a Tokyo."
+  },
+  "gifts": {
+    "title": "Lista Nozze",
+    "paragraph": "Per la nostra luna di miele abbiamo deciso di creare questa lista nozze. Qualora vogliate rendere questo giorno ancora più speciale, vi saremmo estremamente grati. Qui di seguito le foto di alcune delle destinazioni da noi sognate."
+  }
+}

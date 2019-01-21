@@ -1,0 +1,106 @@
+.loginContainer {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/images/pattern.png"),
+    linear-gradient(var(--palepink), var(--pink));
+  background-repeat: repeat;
+}
+
+.loginContainer > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30rem;
+  margin: 2rem 2rem 2.4rem 2rem;
+  padding: 2rem 2.4rem;
+  background-color: white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginContainer > form > #inputFields > input {
+  display: inline-block;
+  width: 100%;
+  line-height: 3.125rem;
+  height: 3.125rem;
+  border: 1px solid #e6e6e6;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  outline: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0;
+  background-color: var(--palepink);
+  text-align: center;
+  font-family: "Lato";
+}
+
+.loginContainer > form > p {
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.loginContainer > form > button {
+  border-radius: 20px;
+  padding: 15px 60px;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: var(--darkgrey);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.flags {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1.2rem;
+  width: 2rem;
+  margin: 0.5rem;
+  outline: none;
+  cursor: pointer;
+}
+
+#italian {
+  background-image: url("/images/it.png");
+}
+
+#english {
+  background-image: url("/images/gb.png");
+}
+
+#languages {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+}
+
+@media only screen and (max-height: 600px) {
+  .loginContainer {
+    height: auto;
+  }
+
+  .loginContainer > form {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loginContainer > form > #inputFields > input {
+    font-size: 1rem;
+  }
+}

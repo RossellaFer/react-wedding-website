@@ -1,0 +1,70 @@
+{
+  "loginpage": {
+    "title": "Login",
+    "intro": "To access our website, register with your email and password. If you have already registered, please login.",
+    "placeholderName": "Username",
+    "placeholderEmail": "Email address",
+    "loginbutton": "Login →",
+    "signupbutton": "Create new user →"
+  },
+  "hero": {
+    "weddingwebsite": "Wedding website",
+    "locationwedding": "Puglia, Italy"
+  },
+  "navbar": {
+    "RSVP": "RSVP",
+    "contactus": "Contact Us",
+    "gifts": "Registry"
+  },
+
+  "location": {
+    "introduction": "Some more information about the city where we are getting married, the location of the wedding and what to visit in Puglia.",
+    "cerimonia": "Both the wedding ceremony and the reception will take place at a traditional farmhouse  in Rossella's hometown.",
+    "address": "Address",
+    "mapsuggestions": "We have marked a few things to see in the map below. The airport and train station are marked in yellow while the touristic attractions and half day trips are marked in blue and green respectively.",
+    "plane": "By Plane",
+    "car": "By car",
+    "train": "By train",
+    "planedescription1": "The closest airport is the Bari airport. You can catch a  ",
+    "planedescription2": "bus",
+    "planedescription3": " from the airport to the station. There are around 10 buses a day - the last one is at 11pm.",
+    "cardescription": "If you are coming from the A14 Bologna-Taranto, the exit will be Foggia. If you are coming from the A1 Roma-Napoli or from the A16 Napoli-Canosa take the Candela exit, and then the superstrada SS655 towards Foggia.",
+    "traindescription": "Foggia can be reached by a lot of long-distance trains (Trenitalia), as well as by regional trains. You can check the train schedules ",
+    "traindescription2": "here."
+  },
+  "RSVP": {
+    "title": "R.S.V.P.",
+    "fieldAttendance": "* Can you make it?",
+    "headerExplain": "Please complete the form below to let us know if you can make it to the wedding.",
+    "header": "Your RSVP",
+    "thanks": "Thanks for your RSVP. Please let us know if there are any changes at least two weeks before the wedding.",
+    "fieldName": "* Full name",
+    "fieldAddress": "* Postal address (for the official invitation)",
+    "fieldCityAddress": "City",
+    "fieldPostcodeAddress": "Postcode",
+    "fieldAttendanceYes": "Yes I will be there",
+    "fieldAttendanceNo": "I can't make it",
+    "fieldAllergies": "Do you have any allergies or dietary preferences?",
+    "fieldMusic": "Any song request?",
+    "confirm": "Submit"
+  },
+  "plusOne": {
+    "header": "What about your Plus-One?",
+    "headerEdit": "Additional info on your Plus-One",
+    "guestName": "Guest Full Name",
+    "guestAllergies": "Does your guest have allergies or dietary preferences?",
+    "title": "Do you have a Plus-One?",
+    "yes": "Yes"
+  },
+  "contactus": {
+    "title": "Get in touch",
+    "summary": "Do you have any questions? Do you want to talk about Pokémon and Dark Souls? Get in touch with us by email ",
+    "email": "here.",
+    "bridesummary": "Born and raised in Foggia, in the beautiful Puglia, with the constant desire to travel and learn about new cultures. I decided to study Chinese language at Ca' Foscari University of Venice, where I met my other half, over a glass of Spritz.",
+    "groomsummary": "Born and raised in a little town near Bergamo. I was always fascinated by the Japanese history and culture. I decided to study Japanese language at Ca' Foscari University of Venice and eventually move to Tokyo."
+  },
+  "gifts": {
+    "title": "Registry",
+    "paragraph": "We decided to opt for a non-traditional wedding registry to fund our honeymoon. We haven't picked the honeymoon destination yet, but these are some of our ideas... so many amazing places to visit! If you'd like, please help send us on a memorable adventure by contributing to our honeymoon fund."
+  }
+}

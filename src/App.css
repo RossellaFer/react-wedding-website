@@ -1,0 +1,111 @@
+html {
+  font: normal 16px;
+  color: var(--darkgrey);
+  background-color: var(--pearlgrey);
+  --pink: rgb(237, 190, 173);
+  --palepink: rgb(244, 223, 207);
+  --darkgrey: rgb(94, 96, 97);
+  --lightgreen: rgb(241, 242, 214);
+  --olivegreen: rgb(108, 123, 104);
+  --pearlgrey: rgb(235, 234, 233);
+}
+
+p,
+li,
+span {
+  font-family: "Lato", sans-serif;
+  color: var(--darkgrey);
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Cookie", cursive;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Cookie", cursive;
+  font-size: 2.5rem;
+  color: var(--olivegreen);
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+}
+
+a {
+  opacity: 0.75;
+  text-decoration: none;
+  color: var(--olivegreen);
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 1;
+  color: var(--pink);
+  text-decoration: none;
+}
+
+.section {
+  padding: 15px 0;
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+}
+
+.section p {
+  max-width: 50rem;
+  margin: 1rem auto;
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 2;
+}
+
+.section h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#loading,
+#notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#loading p,
+#notfound p {
+  font-size: 2rem;
+  color: var(--olivegreen);
+  padding: 1rem;
+}
+
+#loading i {
+  color: var(--pink);
+}
+
+#notfound button {
+  border-radius: 20px;
+  padding: 15px 60px;
+  margin-top: 2rem;
+  border: 1px solid var(--darkgrey);
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: var(--darkgrey);
+  background-color: var(--pearlgrey);
+  cursor: pointer;
+  outline: none;
+}
+
+/* vertical mobile display */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
