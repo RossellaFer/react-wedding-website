@@ -114,7 +114,7 @@ class Map extends React.Component {
   //load the script
   loadMap = () => {
     loadScript(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNn_ezyRyN-r88ZLhixrorglnHwu1ATng&callback=initMap"
+      "https://maps.googleapis.com/maps/api/js?key=[YOUR KEY HERE]&callback=initMap"
     );
     window.initMap = this.initMap;
   };
