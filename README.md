@@ -1,4 +1,4 @@
-# a-wedding-website
+# A-Wedding-Website For Best Couple
 ReactJS application to manage the RSVPs to my wedding. Data persistence and authentication implemented with Firebase. App localised in both English and Italian using [react-i18next](https://github.com/i18next/react-i18next). Includes a customised map made with [google-maps-react](https://github.com/fullstackreact/google-maps-react). 
 
 User stories:
